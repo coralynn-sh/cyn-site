@@ -1,22 +1,12 @@
 body {
-  color: #222;
-  font-family: sans-serif;
+  color: #7c8eba;
+  font-family: 'Inconsolata', monospace;
   line-height: 1.5;
   margin: 1rem;
-  max-width: 768px;
-}
-
-header {
-  border-bottom: 1px solid #222;
-  margin-bottom: 1rem;
-}
-
-footer {
-  border-top: 1px solid #222;
-  margin-top: 1rem;
+  background-color: #121212;
 }
 
 a {
-  color: #00e;
+  color: #9d58a5;
   text-decoration: none;
 }

@@ -1,4 +1,7 @@
 <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 {{- with resources.Get "css/main.css" }}
   {{- if eq hugo.Environment "development" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
