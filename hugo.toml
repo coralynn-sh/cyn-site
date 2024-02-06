@@ -1,0 +1,7 @@
+baseURL = 'https://cyn.sh/'
+languageCode = 'en-us'
+title = 'Cyn.sh'
+theme = 'cyn'
+
+[taxonomies]
+    tag = 'tags'
