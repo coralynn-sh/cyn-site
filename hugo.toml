@@ -1,6 +1,6 @@
 baseURL = 'https://cyn.sh/'
 languageCode = 'en-us'
-title = 'Cyn.sh'
+title = 'Cyn'
 theme = 'cyn'
 
 [taxonomies]

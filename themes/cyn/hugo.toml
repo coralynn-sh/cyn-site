@@ -12,6 +12,11 @@ name = 'Blog'
 pageRef = '/blog'
 weight = 20
 
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+weight = 30
+
 [module]
   [module.hugoVersion]
     extended = false

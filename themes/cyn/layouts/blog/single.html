@@ -1,3 +1,6 @@
+{{ define "shcall" }}
+<span>cat {{ .File.LogicalName }}</span>
+{{ end }}
 {{ define "main" }}
     <h2>{{ .Title }}</h2>
     {{ .Content }}
