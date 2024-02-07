@@ -81,11 +81,11 @@ nav ul li {
   margin: 0 0.2em;
 }
 
-ul li:has(a.active) {
+nav ul li:has(a.active) {
   color: #afc2f1;
 }
 
-ul li::after {
+nav ul li::after {
   content: '/';
   margin: 0;
 }

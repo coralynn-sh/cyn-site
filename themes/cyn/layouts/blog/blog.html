@@ -5,7 +5,7 @@
 {{ define "main" }}
   {{ .Content }}
   {{ with .OutputFormats.Get "rss" -}}
-<p>Subscribe via <a href="{{ .Permalink }}" rel="{{ .Rel }}" type="{{ .MediaType.Type }}">RSS</a></p>
+    <p>Subscribe via <a href="{{ .Permalink }}" rel="{{ .Rel }}" type="{{ .MediaType.Type }}">RSS</a></p>
   {{ end }}
   {{ range site.RegularPages }}
     <div class="post">
