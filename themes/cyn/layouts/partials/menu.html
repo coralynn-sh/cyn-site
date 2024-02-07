@@ -1,26 +1,23 @@
 {{- $page := .page }}
 {{- $menuID := .menuID }}
+{{- $className := .className }}
 
 {{- with index site.Menus $menuID }}
   <nav>
-    <ul>
+    <ul class="{{ $className }}">
       {{- range . }}
         {{ $attrs := dict "href" .URL }}
         {{- if $page.IsMenuCurrent .Menu . }}
           {{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
-        {{- else if $page.HasMenuCurrent .Menu .}}
-          {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
         {{- end }}
-        {{- $name := .Name }}
-        <li>
-            <a
+        {{- $name := .Name -}}
+        <li><a
               {{- range $k, $v :=$attrs }}
                 {{- with $v }}
                   {{- printf " %s=%q" $k $v | safeHTMLAttr }}
                 {{- end }}
               {{- end -}}
-            >{{ $name  }}</a>
-        </li>
+            >{{- $name -}}</a> </li>
       {{- end }}
     </ul>
   </nav>
