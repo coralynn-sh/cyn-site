@@ -1,6 +1,0 @@
-#+title: Hello World
-#+date: <2024-02-05 Mon>
-#+description: A test post
-#+tags[]: Hello world
-
-Hello

@@ -1,3 +1,0 @@
-#+title: Post
-#+date: <2024-02-06 Tue>
-#+description: This is a second test post
