@@ -1,7 +1,7 @@
 body {
   color: #7c8eba;
   font-family: 'Inconsolata', monospace;
-  line-height: 1;
+  line-height: 1.3;
   margin: 1rem;
   background-color: #282935;
 }
@@ -21,6 +21,10 @@ a {
 
 h1 {
   font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
 }
 
 @keyframes blink {
