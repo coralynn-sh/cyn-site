@@ -10,7 +10,7 @@ Who am I
 
 Heya ^^/ I'm Coralynn, I think a lot about Open Source software and friends, programming, workflow, and on occasion I dabble in some art.
 
-It is because of Open Source I was able to get I to computing, learn programming, and become the tech nerd I am today. With that in mind I am pragmatic, if it's not the right choice, it just isn't.
+It is because of Open Source I was able to get into computing, learn programming, and become the tech nerd I am today. With that in mind I am pragmatic, if it's not the right choice, it just isn't.
 
 I am not particularly trendy with programming, I started on C, and have ventured into many different realms. I have a bucket list of sorts, and would like to try some lesser appreciated languages. That said, I do have a Go to language.
 
