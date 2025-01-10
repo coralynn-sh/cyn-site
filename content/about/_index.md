@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2025-01-10T15:15:00-0400
+date: 2025-01-10T17:59:03-05:00
 description:
 tags[]:
 ---
@@ -8,7 +8,7 @@ tags[]:
 Who am I
 ========
 
-I am just a digital vagabond with a particular interests in tech art, optimization, and open source.
+I am just a digital vagabond with a particular interest in tech art, optimization, and open source.
 
 You can find my public work [here](https://github.com/coralynn-sh)
 
