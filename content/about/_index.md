@@ -8,7 +8,9 @@ tags[]:
 Who am I
 ========
 
-I am just a digital vagabond with a particular interests in real time rendering, optimization, and open source.
+I am just a digital vagabond with a particular interests in tech art, optimization, and open source.
+
+You can find my public work [here](https://github.com/coralynn-sh)
 
 Contact
 -------
