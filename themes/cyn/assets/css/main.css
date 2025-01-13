@@ -20,7 +20,7 @@ a {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 h2 {
@@ -69,8 +69,8 @@ a.active {
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
+  list-style: "> ";
+  /* padding-left: 0; */
   margin: 0;
   margin-bottom: 0;
 }

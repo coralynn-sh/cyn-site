@@ -5,5 +5,6 @@
     <h2>{{ .Title }}</h2>
     {{ .Date | time.Format ":date_full" }}
     {{ .Content }}
+    <br>
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ end }}
