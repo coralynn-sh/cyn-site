@@ -27,6 +27,10 @@ h2 {
   font-size: 1.2rem;
 }
 
+hr {
+  border-color: #7c8eba;
+}
+
 @keyframes blink {
   0% {
     opacity: 0;
