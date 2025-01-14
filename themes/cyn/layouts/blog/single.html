@@ -2,7 +2,7 @@
 <span>cat {{ .File.LogicalName }}</span>
 {{ end }}
 {{ define "main" }}
-    <h2>{{ .Title }}</h2>
+    <h1>{{ .Title }}</h1>
     {{ .Date | time.Format ":date_full" }}
     {{ .Content }}
     <br>
